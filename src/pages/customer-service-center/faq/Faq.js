@@ -14,7 +14,7 @@ function Faq({ title, description }) {
     <>
       <div className={styles.faq}>
         <div className={styles.question}>
-          <h3>제목1</h3>
+          <h3>title</h3>
           <button className={styles.detail} onClick={toggleVisibility}>
             눌러보셈
           </button>

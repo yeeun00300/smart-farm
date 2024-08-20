@@ -6,7 +6,7 @@ import Faq from "./faq/Faq";
 // up-arrow_icon-icons.com_73351.svg - up 화살표에 해당하는 이미지
 // angle-arrow-down_icon-icons.com_73683.svg - down 화살표에 해당하는 이미지
 
-function CustomerServiceCenter() {
+function CustomerServiceCenter({ title, description }) {
   return <Faq />;
 }
 
